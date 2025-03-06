@@ -1,0 +1,57 @@
+.landing-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.landing-header {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
+.feature img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.icon {
+  width: 64px; /* Adjust size as needed */
+  height: 64px; /* Adjust size as needed */
+  margin-bottom: 10px;
+}
+
+.google-icon {
+  width: 24px; /* Adjust size as needed */
+  height: 24px; /* Adjust size as needed */
+  margin-left: 10px; /* Space between text and icon */
+}
+
+.login-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center; /* Align text and icon vertically */
+}
+
+.login-button:hover {
+  background-color: #3367d6;
+}

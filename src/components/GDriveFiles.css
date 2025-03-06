@@ -1,0 +1,133 @@
+.gdrive-files-container {
+  padding: 20px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.files-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.refresh-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.refresh-button:hover {
+  background-color: #3367d6;
+}
+
+.refresh-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.loading,
+.error {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.error {
+  color: red;
+}
+
+.loading-folder {
+  padding: 10px;
+  color: #666;
+  font-style: italic;
+}
+
+.error-folder {
+  padding: 10px;
+  color: #d32f2f;
+  font-style: italic;
+}
+
+.empty-folder {
+  padding: 10px;
+  color: #666;
+  font-style: italic;
+}
+
+.files-list {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.file-header {
+  display: grid;
+  grid-template-columns: 50px 3fr 1fr 2fr 1fr;
+  background-color: #f5f5f5;
+  padding: 12px 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.file-item {
+  display: grid;
+  grid-template-columns: 50px 3fr 1fr 2fr 1fr;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  align-items: center;
+}
+
+.file-item:last-child {
+  border-bottom: none;
+}
+
+.file-item:hover {
+  background-color: #f9f9f9;
+}
+
+.folder-name {
+  cursor: pointer;
+  font-weight: 500;
+  color: #1a73e8;
+}
+
+.folder-name:hover {
+  text-decoration: underline;
+}
+
+.folder-contents {
+  margin-left: 30px;
+  border-left: 2px solid #e0e0e0;
+}
+
+.nested-file {
+  background-color: #f9f9f9;
+}
+
+.file-icon {
+  font-size: 20px;
+}
+
+.file-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.view-button {
+  background-color: #4285f4;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.view-button:hover {
+  background-color: #3367d6;
+}
